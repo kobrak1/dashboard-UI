@@ -39,6 +39,9 @@ const UserTraffic = () => {
           </div>
         </div>
       </div>
+      <div className="chart">
+        
+      </div>
     </div>
   );
 };
