@@ -1,0 +1,125 @@
+.user-traffic-main {
+  margin: 40px 0;
+}
+
+.user-traffic-main {
+  width: 1010px;
+  height: 460px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: -2px -2px 5px 0px rgba(116, 116, 176, 0.5);
+  top: 129px;
+  left: 390px;
+}
+
+.header-user-traffic {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.header-user-traffic h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+.user-signup,
+.user-subscribed,
+.year-button {
+  color: rgba(144, 155, 187, 1);
+}
+/* blue box */
+.header-right .user-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  font-size: 13px;
+}
+.user-signup .blue-box {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: rgba(0, 155, 242, 1);
+  margin-right: .7rem;
+}
+
+/* red box */
+.header-right .user-subscribed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  font-size: 13px;
+}
+.user-subscribed .red-box {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: rgba(251, 69, 64, 1);
+  margin-right: .7rem;
+}
+
+/* year button */
+.header-right .year .year-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  width: 133px;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid rgba(174, 171, 216, 0.4);
+  background-color: #060b27;
+  transition: 0.2s ease;
+}
+.header-right .year .year-button p {
+  margin-left: .3rem;
+}
+.header-right .year .year-button:hover {
+  border: 1px solid rgba(174, 171, 216, 0.8);
+  background-color: rgba(33, 44, 99, 0.5);
+}
+
+.header-right .year .year-button .material-symbols-outlined {
+  color: rgba(116, 126, 154, 1);
+  transition: 0.2s ease;
+}
+.header-right .year .year-button .material-symbols-outlined.up {
+  transform: rotate(180deg);
+}
+
+/* dropdown content */
+.header-right .year .dropdown-year {
+  display: flex;
+  flex-direction: column;
+  color: rgba(174, 187, 218, 1);
+  margin: 0.3rem 0;
+  position: absolute;
+  min-width: 133px;
+  z-index: 1;
+}
+
+.header-right .year .dropdown-year a {
+  font-size: 12px;
+  color: rgba(174, 187, 218, 1);
+  background-color: #060b27;
+  padding: 8px 16px;
+  margin: 0.2rem 0;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid rgba(174, 171, 216, 0.4);
+  display: block;
+}
+.header-right .year .dropdown-year a:hover {
+  background-color: rgba(43, 54, 107, 0.5);
+}
