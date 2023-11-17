@@ -6,6 +6,7 @@ export const ChartContext = createContext();
 const ChartProvider = ({ children }) => {
   const [isDropDown, setIsDropDown] = useState(false);
   const [isDropDownYear, setIsDropDownYear] = useState(false);
+  const [totalVisits, setTotalVisits] = useState(3289);
 
   //   the function to handle dropdown
   const handleDropDown = () => {
@@ -14,6 +15,12 @@ const ChartProvider = ({ children }) => {
   const handleDropDownYear = () => {
     setIsDropDownYear(!isDropDownYear);
   };
+
+  // handle totalVisits
+  const handleTotalVisits = (number) => {
+    setTotalVisits(number)
+  }
+
   return (
     <ChartContext.Provider
       value={{
@@ -21,6 +28,9 @@ const ChartProvider = ({ children }) => {
         isDropDownYear,
         handleDropDown,
         handleDropDownYear,
+        totalVisits,
+        setTotalVisits,
+        handleTotalVisits
       }}
     >
       {children}

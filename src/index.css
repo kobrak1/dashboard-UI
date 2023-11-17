@@ -1,5 +1,5 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 html,
@@ -18,10 +18,30 @@ li {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: rgba(6, 11, 39, 1);
 }
 
 ul,
 ol {
   list-style: none;
+}
+.components {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background: radial-gradient(circle, #7b61ab, #736bb2, #648ab5, #785fbd);
+  background-size: 300% 300%;
+  animation: color 30s ease-in-out infinite;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }

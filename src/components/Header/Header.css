@@ -1,16 +1,13 @@
-.header {
+.header-x {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin: 40px 70px;  
 }
 
 .user-analytics {
-  position: relative;
   width: 245px;
   height: 71px;
-  top: 36px;
-  left: 40px;
 }
 .user-analytics .main-header h1 {
   font-family: "Space Grotesk", sans-serif;
@@ -24,14 +21,8 @@
 
 .user-analytics .content p {
   opacity: 80%;
-  font-family: inter;
+  font-family: 'Inter', sans-serif;
   color: rgba(174, 187, 218, 1);
-}
-
-.user-pannel {
-  position: absolute;
-  top: 47px;
-  left: 1330px;
 }
 
 /* button styling */

@@ -3,9 +3,9 @@ import { ChartContext } from "../../context/ChartProvider";
 import "./Header.css";
 
 const Header = () => {
-  const { isDropDown, handleDropDown } = useContext(ChartContext);
+  const { isDropDown, handleDropDown, setIsDropDown, setIsDropDownYear } = useContext(ChartContext);
   return (
-    <div className="header">
+    <div className="header-x">
       <div className="user-analytics">
         <div className="main-header">
           <h1>User Analytics</h1>
