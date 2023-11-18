@@ -62,10 +62,9 @@
   align-items: flex-start;
   width: 135px;
   height: 56px;
+  gap: .3rem;
 }
 
-.down,
-.up,
 .active-users,
 .total-clicks {
   display: flex;
@@ -75,7 +74,5 @@
   height: 48px;
   border-radius: 10px;
   color: #fff;
-  background-color: rgb(100, 233, 100);
-  box-shadow: 0 0 15px rgba(235, 177, 4, 0.8);
 }
 

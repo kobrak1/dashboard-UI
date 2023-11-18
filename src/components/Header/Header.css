@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 40px 70px;  
+  margin: 40px 70px 70px 70px;  
 }
 
 .user-analytics {
@@ -47,12 +47,12 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24.2px;
-  color: rgb(176, 185, 207);
+  color: rgb(228, 222, 222);
   margin-left: 1rem;
 }
 
 .dropdown-button .material-symbols-outlined {
-  color: rgba(116, 126, 154, 1);
+  color: rgb(166, 160, 160);
   transition: .2s ease;
 }
 .dropdown-button .material-symbols-outlined.up {
@@ -73,7 +73,7 @@
 .user-pannel .dropdown-content a {
   font-size: 12px;
   color: rgba(174, 187, 218, 1);
-  background-color: #060B27;
+  background-color: rgb(6, 11, 40, .2);
   padding: 8px 16px;
   margin: .2rem 0;
   text-decoration: none;
@@ -81,4 +81,4 @@
   border: 1px solid rgba(174, 171, 216, 0.4);
   display: block;
 }
-.dropdown-content a:hover {background-color: rgba(43, 54, 107, 0.5)}
+.dropdown-content a:hover {background-color: rgba(33, 44, 99, 0.2)}

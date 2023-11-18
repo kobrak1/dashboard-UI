@@ -9,7 +9,7 @@
   height: 460px;
   border-radius: 10px;
   box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.25);
-  background-color: rgb(212, 212, 212, .1);
+  background-color: rgb(212, 212, 212, 0.1);
   backdrop-filter: blur(15px);
 }
 
@@ -22,7 +22,7 @@
 .header-user-traffic h1 {
   font-family: "Space Grotesk", sans-serif;
   font-size: 24px;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(228, 222, 222);
   font-weight: 700;
 }
 
@@ -35,8 +35,9 @@
 .user-signup,
 .user-subscribed,
 .year-button {
-  color: rgba(144, 155, 187, 1);
+  color: rgb(228, 222, 222);
 }
+
 /* blue box */
 .header-right .user-signup {
   display: flex;
@@ -49,8 +50,9 @@
   width: 16px;
   height: 16px;
   border-radius: 4px;
-  background-color: rgb(0, 101, 242);
-  margin-right: .7rem;
+  background-color: rgb(28, 113, 232);
+  box-shadow: 0 0 15px rgba(4, 231, 235, 0.8);
+  margin-right: 0.7rem;
 }
 
 /* red box */
@@ -65,8 +67,9 @@
   width: 16px;
   height: 16px;
   border-radius: 4px;
-  background-color: rgb(202, 75, 71);
-  margin-right: .7rem;
+  background-color: rgb(190, 58, 54);
+  box-shadow: 0 0 15px rgba(235, 131, 4, 0.8);
+  margin-right: 0.7rem;
 }
 
 /* year button */
@@ -75,26 +78,29 @@
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 133px;
   height: 32px;
   border-radius: 6px;
   border: 1px solid rgba(174, 171, 216, 0.4);
-  background-color: #060b27;
+  background-color: rgb(5, 10, 38, 0.2);
   transition: 0.2s ease;
 }
 .header-right .year .year-button p {
-  margin-left: .3rem;
+  margin-left: 0.3rem;
+  color: rgb(228, 222, 222);
 }
+
 .header-right .year .year-button:hover {
   border: 1px solid rgba(174, 171, 216, 0.8);
-  background-color: rgba(33, 44, 99, 0.5);
+  background-color: rgba(33, 44, 99, 0.2);
 }
 
 .header-right .year .year-button .material-symbols-outlined {
-  color: rgba(116, 126, 154, 1);
+  color: rgb(166, 160, 160);
   transition: 0.2s ease;
 }
+
 .header-right .year .year-button .material-symbols-outlined.up {
   transform: rotate(180deg);
 }
@@ -113,7 +119,7 @@
 .header-right .year .dropdown-year a {
   font-size: 12px;
   color: rgba(174, 187, 218, 1);
-  background-color: #060b27;
+  background-color: rgb(5, 10, 38, 0.2);
   padding: 8px 16px;
   margin: 0.2rem 0;
   text-decoration: none;
@@ -122,5 +128,5 @@
   display: block;
 }
 .header-right .year .dropdown-year a:hover {
-  background-color: rgba(43, 54, 107, 0.5);
+  background-color: rgba(33, 44, 99, 0.2);
 }

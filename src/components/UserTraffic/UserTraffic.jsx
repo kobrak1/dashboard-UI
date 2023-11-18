@@ -6,6 +6,7 @@ import Total from "../Total/Total";
 
 const UserTraffic = () => {
   const { isDropDownYear, handleDropDownYear } = useContext(ChartContext);
+  console.log(isDropDownYear);
   return (
     <div className="user-statistics">
       <Total />

@@ -8,10 +8,17 @@ const Total = () => {
     <div className="main-total">
       <div className="total-item">
         <span
-          className="down"
+          className="decrease"
           style={{
             backgroundColor: "rgba(63, 70, 247, 1)",
             boxShadow: "0 0 15px rgba(4, 177, 235, 0.8)",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "48px",
+            height: "48px",
+            borderRadius: "10px",
+            color: "#fff",
           }}
         >
           <span className="material-symbols-outlined">south_west</span>
@@ -28,10 +35,17 @@ const Total = () => {
       </div>
       <div className="total-item-2">
         <span
-          className="up"
+          className="increase"
           style={{
             backgroundColor: "rgba(254, 135, 67, 1)",
             boxShadow: "0 0 15px rgba(235, 177, 4, 0.8)",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "48px",
+            height: "48px",
+            borderRadius: "10px",
+            color: "#fff",
           }}
         >
           <span className="material-symbols-outlined">north_east</span>
@@ -77,7 +91,7 @@ const Total = () => {
         <div className="visits">
           <p style={{ color: "#c2c4c2" }}>Total Clicks</p>
           <div className="total-visits" style={{ color: "#e6e8e6" }}>
-            {totalVisits}
+            357
           </div>
         </div>
         <div style={{ width: "63px", margin: "0" }}></div>

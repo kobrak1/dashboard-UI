@@ -28,8 +28,7 @@ const Header = () => {
         {isDropDown && (
           <div className="dropdown-content">
             <a href="#">Lorem ipsum dolor sit.</a>
-            <a href="#">Lorem make ipsum.</a>
-            <a href="#">Lorem, ipsum dolor.</a>
+            <a href="#">lorem ipsum.</a>
           </div>
         )}
       </div>
